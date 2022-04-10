@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    background-color: #b1a1a1;
+    font-family     : 'Times New Roman', serif;
+    box-sizing      : border-box;
+    text-align      : center;
+}
+
+.template {
+    display         : flex;
+    flex-direction  : row-reverse;
+    background-color: #fff;
+    width           : 900px;
+    height          : auto;
+    padding         : 0;
+    position        : relative;
+    margin          : 0 auto;
+    box-shadow      : 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    width      : 600px;
+    margin-left: 1%;
+    margin-top : 4vh;
+}
+
+aside {
+    display         : flex;
+    flex-direction  : column;
+    width           : 290px;
+    padding-top     : 20px;
+    color           : #fff;
+    background-color: #404043;
+}
+
+.feild {
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+    width         : 250px;
+    padding       : 10px;
+    color         : #fff;
+}
+
+.name {
+    font-family   : 'Righteous', cursive;
+    font-size     : 45px;
+    line-height   : 51px;
+    color         : #34393E;
+    text-transform: uppercase;
+}
+
+.heading {
+    font-size     : 30px;
+    font-weight   : 600;
+    color         : inherit;
+    text-transform: uppercase;
+}
+
+.contact {
+    font-size   : 18px;
+    font-weight : 300;
+    color       : #fff;
+    padding-left: 10px;
+}
+
+section {
+    border-style : solid;
+    border-width : 0 0 2px 0;
+    margin-bottom: 10px;
+}
+
+img {
+    width        : 100%;
+    height       : 250px;
+    border-radius: 100%;
+}
+
+a {
+    text-decoration: none;
+    color          : inherit;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.section-end {
+    border-style: none;
+}
+
+.feild-data {
+    font-size   : 18px;
+    font-weight : 300;
+    color       : #fff;
+    padding-left: 20px;
+}
