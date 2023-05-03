@@ -78,6 +78,7 @@ main .content{
     /* width         : 250px; */
     padding       : 10px;
     color         : #fff;
+    padding-left: 3px;
 }
 
 .name {
