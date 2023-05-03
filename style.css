@@ -1,26 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 body {
-    background-color: #e6e6fa;
+    /* background-color: #e6e6fa; */
     font-family: 'Helvetica Neue', Helvetica, Arial, "Lucida Grande", sans-serif;
     box-sizing      : border-box;
 }
 
 *{
     line-height: 1.2;
+    font-size: 26px;
 }
 
 main {
-    width      : 600px;
+    width      : 75%;
     margin-left: 1%;
     margin-top : 4vh;
     padding-left: 7px;
+    
 }
-
 aside {
     display         : flex;
     flex-direction  : column;
-    width           : 290px;
+    width           : 25%;
     padding-top     : 20px;
     color           : #fff;
     background-color: #404043;
@@ -34,8 +35,8 @@ section {
 
 img {
     width        : 100%;
-    height       : 250px;
-    border-radius: 100%;
+    height       : 400px;
+    border-radius: 50%;
 }
 
 a {
@@ -45,11 +46,14 @@ a {
 
 li{
     line-height: 1.6;
+    
 }
-
+main .content{
+    width: 85%;
+}
 .container{
     background-color: #fff;
-    width: 900px;
+    width: 100%;
     margin: 0 auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -58,33 +62,35 @@ li{
     display         : flex;
     flex-direction  : row-reverse;
     background-color: #fff;
-    width           : 900px;
+    width           : 100%;
     height          : auto;
     padding         : 0;
     border-style: groove;
     border-width: 0px 0px 2px 0px;
 }
 
-
+.content{
+    padding: 10px;
+}
 .feild {
     display       : flex;
     flex-direction: row;
     align-items   : center;
-    width         : 250px;
+    /* width         : 250px; */
     padding       : 10px;
     color         : #fff;
 }
 
 .name {
     font-family   : 'Righteous', cursive;
-    font-size     : 45px;
+    font-size     : 65px;
     line-height   : 51px;
     color         : #34393E;
     text-transform: uppercase;
 }
 
 .heading {
-    font-size     : 30px;
+    font-size     : 45px;
     font-weight   : 600;
     line-height: 1.6;
     color         : inherit;
@@ -92,7 +98,7 @@ li{
 }
 
 .contact {
-    font-size   : 18px;
+    font-size   : 28px;
     font-weight : 300;
     color       : #fff;
     padding-left: 10px;
@@ -107,7 +113,7 @@ li{
 }
 
 .feild-data {
-    font-size   : 16px;
+    font-size   : 26px;
     font-weight : 400;
     color       : #fff;
     padding-left: 20px;
@@ -133,8 +139,8 @@ main li{
 .about-body {
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 25px;
+    line-height: 30px;
     text-align: justify;
     letter-spacing: 0.2px;
     padding-right: 10px;
